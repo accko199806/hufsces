@@ -7,6 +7,6 @@
 - 2학년 과목이지만 고년이 많이 수강하며, Ubuntu 서버, SQL Database 사용, 웹서버 이해를 하고 있어야 강의 듣기 수월합니다.
 - 시험 문제는 강의 초반에 설명하는 강의 PPT에서 대부분 출제됩니다. (우분투의 역사, MQTT의 사용법, 오픈소스의 정의 등)
 - 간단한 손코딩 문제와 코드의 결과를 작성하는 문항도 존재합니다.
-- 레포트 비중이 높습니다.
+- 레포트 비중이 높습니다. 
 
 - [레포트](https://github.com/accko199806/hufsces/tree/master/Open%20Source%20SW%20%26%20Experiments%20(CSKim)/report)
