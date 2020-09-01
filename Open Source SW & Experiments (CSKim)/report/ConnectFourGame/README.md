@@ -16,6 +16,4 @@ pgzero의 `on_mouse_down(pos)`함수를 이용해 클릭 위치를 확인하였�
 <hr>
 
 ### 결과
-<div>
-<img src="https://raw.githubusercontent.com/accko199806/hufsces/master/Open%20Source%20SW%20%26%20Experiments%20(CSKim)/report/ConnectFourGame/ss_connect4.png" style="width: 100%; max-width: 512px; height: auto;"/>
-</div>
+<img src="https://raw.githubusercontent.com/accko199806/hufsces/master/Open%20Source%20SW%20%26%20Experiments%20(CSKim)/report/ConnectFourGame/ss_connect4.png" width="512" />
