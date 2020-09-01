@@ -21,4 +21,5 @@
 <hr>
 
 <img src="https://raw.githubusercontent.com/accko199806/hufsces/master/Open%20Source%20SW%20%26%20Experiments%20(CSKim)/report/RaspStatusShowWeb/diagram.png" width="512" />
+   
 [실행 영상](https://github.com/accko199806/hufsces/blob/master/Open%20Source%20SW%20&%20Experiments%20(CSKim)/report/RaspStatusShowWeb/displayVideo.mp4?raw=true)
