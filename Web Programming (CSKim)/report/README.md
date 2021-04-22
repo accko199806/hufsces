@@ -8,4 +8,4 @@
 1. [TableDisplayWithBootstrap](https://github.com/accko199806/hufsces/tree/master/Web%20Programming%20(CSKim)/report/TableDisplayWithBootstrap) : Table 디자인 수정하기   
 2. [StockPriceQueryProject](https://github.com/accko199806/hufsces/tree/master/Web%20Programming%20(CSKim)/report/StockPriceQueryProject) : Session 관리와 POST 통신 이용하기   
 3. [StockPriceTableNChartCORS](https://github.com/accko199806/hufsces/tree/master/Web%20Programming%20(CSKim)/report/StockPriceTableNChartCORS) : Stock Price Table 프로젝트의 디자인 수정하기   
-4. [StockPriceTableNChartCORS2](https://github.com/accko199806/hufsces/tree/master/Web%20Programming%20(CSKim)/report/StockPriceTableNChartCORS2) : Stock Price Table 프로젝트의 Elements 관리하기
+4. [StockPriceTableNChartCORS2](https://github.com/accko199806/hufsces/tree/master/Web%20Programming%20(CSKim)/report/StockPriceTableNChartCORS2) : Stock Price Table 프로젝트의 Elements 관리하기   
