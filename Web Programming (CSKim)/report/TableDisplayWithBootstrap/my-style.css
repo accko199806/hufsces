@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.contents {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.narrow {
+    width: 12.5%;
+    text-align: center;
+}
+
+.wide {
+    width: 15%;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+/**
+  * cskim source
+  * **/
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
+.header-fixed {
+    width: 100%
+}
+
+.header-fixed > thead,
+.header-fixed > tbody,
+.header-fixed > thead > tr,
+.header-fixed > tbody > tr,
+.header-fixed > thead > tr > th,
+.header-fixed > tbody > tr > td {
+    display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: auto;
+    height: 550px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+    float: left;
+}

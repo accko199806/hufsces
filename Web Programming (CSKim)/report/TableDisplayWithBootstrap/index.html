@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Report#1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./my-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./utils.js"></script>
+    <script src="./csvdata_all.js"></script>
+</head>
+<body>
+<div class="contents">
+    <div class="center">
+        <table class="table table-striped table-condensed header-fixed">
+            <thead>
+            <tr>
+                <!-- 201902907 > 19 29 07 | 19 = 삼성생명 | 29 = 현대모비스 | 07 = LG화학 -->
+                <th class="narrow left">Line No.</th>
+                <th class="narrow left">Date</th>
+                <th class="wide">LG화학</th>
+                <th class="wide">NAVER</th>
+                <th class="wide">삼성생명</th>
+                <th class="wide">카카오</th>
+                <th class="wide">현대모비스</th>
+            </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+
+
+<script>
+    const selNames = ['NAVER', '카카오', '삼성생명', '현대모비스', 'LG화학'];
+    const csv = getCsvData();
+    const json = csv2json(csv);
+    const sel = filterName(json, 'name', selNames);
+    const rows = groupByDate(sel);
+
+    for (let i = 0; i < rows.length; i++) {  // row count
+        const da = rows[i]['date'];
+        const cols = rows[i]['cols'];
+
+        let tabrow = '<tr>' + '<td class="narrow left">' + String(i + 1) + '</td>' + '<td class="narrow left">' + da + '</td>';
+        for (let j = 0; j < cols.length; j++) {  // col count
+            tabrow = tabrow + '<td class="wide">' + cols[j]['price'] + '</td>';
+        }
+        tabrow += '</tr>';
+        $('#tbody').append(tabrow);  // using jQuery
+    }
+</script>
+</body>
+</html>
