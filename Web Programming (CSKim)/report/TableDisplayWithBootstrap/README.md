@@ -18,5 +18,5 @@ https://github.com/chomskim/Web-Programming/tree/master/WP2020/StockProject/Stoc
 
 <hr>
 
-### 결과
+### stock-table.png
 <img src="https://raw.githubusercontent.com/accko199806/hufsces/master/Web%20Programming%20(CSKim)/report/TableDisplayWithBootstrap/stock-table.png" width="512" />
