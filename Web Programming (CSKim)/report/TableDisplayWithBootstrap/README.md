@@ -13,3 +13,10 @@ https://github.com/chomskim/Web-Programming/tree/master/WP2020/StockProject/Stoc
 <hr>
 
 ### 문제 해결 방향
+교수님이 만드신 html의 테이블 부분 디자인을 수정하는 게 목표임.   
+`table` 클래스에 `table table-striped table-condensed header-fixed` 값을 추가한 후, `my-style.css`를 추가함.
+
+<hr>
+
+### 결과
+<img src="https://raw.githubusercontent.com/accko199806/hufsces/master/Web%20Programming%20(CSKim)/report/TableDisplayWithBootstrap/stock-table.png" width="512" />
