@@ -1,0 +1,90 @@
+#HomeSection {
+    background: #e74c3c;
+    color: #FFFF33;
+    padding: 0;
+}
+
+#JumbotronImage {
+    width: 100%;
+}
+
+#JumbotronHeading {
+    margin-top: 30px;
+}
+
+#JumbotronPara {
+    margin-top: 120px;
+    padding-left: 100px;
+}
+
+#JumbotronTable {
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+.jumbotronTextOnImages {
+    position: absolute;
+    width: 100%;
+}
+
+.btn-transparent {
+    background-color: Transparent;
+}
+
+.btn-transparent:hover {
+    color: #BDB76B;
+}
+
+.btn-transparent:active,
+.btn-transparent.active,
+.btn-transparent:focus,
+.btn-transparent.focus {
+    color: #FFFFFF !important;
+}
+
+
+/**
+  * Report #1 Source
+  * 과제 1에 제출한 코드와 동일함.
+  * header-fixed : 헤더 고정을 위한 스타일 파일
+  * **/
+
+.contents {
+    width: 100%;
+    max-width: 1170px;
+    margin: 32px auto;
+    height: 100%;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
+.header-fixed {
+    width: 100%
+}
+
+.header-fixed > tbody,
+.header-fixed > tbody > tr,
+.header-fixed > tbody > tr > td {
+    display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+    float: left;
+}
